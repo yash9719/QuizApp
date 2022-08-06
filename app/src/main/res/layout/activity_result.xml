@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/img_12"
+    android:gravity="center"
+    tools:context=".ResultActivity">
+
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"/>
+
+    <ImageView
+        android:id="@+id/iv_trophy"
+        android:layout_width="309dp"
+        android:layout_height="371dp"
+        android:contentDescription="image"
+        android:scaleType="centerInside"
+        android:src="@drawable/img_15" />
+
+    <TextView
+        android:id="@+id/tv_congo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hey,Congratulations!"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/tv_candidate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Denis"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/tv_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="score"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:textColor="@android:color/darker_gray"/>
+
+    <Button
+        android:id="@+id/btn_finish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Finish"
+        android:backgroundTint="@android:color/white"
+        android:textColor="@android:color/holo_purple"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="25sp"/>
+</LinearLayout>
